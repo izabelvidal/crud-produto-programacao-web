@@ -1,13 +1,11 @@
 package br.edu.ufape.crud.produto.model.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
 
 @Entity
+@Table(name = "Produto")
 public class ProductDomain implements Serializable {
     private static final long serialVersionUID = 1L;
 
